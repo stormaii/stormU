@@ -21,7 +21,7 @@ export default function HomePage() {
     }
 
     try {
-      const response = await fetch('http://localhost:3001/api/generate', {
+      const response = await fetch('/api/generate', { // Updated API endpoint
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

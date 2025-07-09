@@ -35,10 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Storm AI backend specific
-storm-ai-backend/node_modules/
-storm-ai-backend/package-lock.json
-storm-ai-backend/npm-debug.log*
-storm-ai-backend/yarn-debug.log*
-storm-ai-backend/yarn-error.log*
-storm-ai-backend/.pnpm-debug.log*
+# Storm AI backend specific (now unused, good to keep for full ignore)
+/storm-ai-backend/
